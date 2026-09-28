@@ -1,0 +1,15 @@
+metric,value,units
+direct_pose_parity_max_abs_error,0.0,state units
+direct_velocity_parity_max_abs_error,0.0,state units
+same_seed_truth_replay_exact,1.0,bool
+same_seed_observation_replay_exact,1.0,bool
+different_seed_truth_exact,1.0,bool
+configuration_owned,1.0,bool
+state_snapshot_independent,1.0,bool
+fresh_process_return_code,0.0,code
+artifact_rollout_duration,9.999999999999876,s
+artifact_rollout_all_finite,1.0,bool
+final_x,6.282944717939933,m
+final_y,1.0436762939870747,m
+final_z,-5.60554728225505,m
+final_depth,5.60554728225505,m

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ambu-parikshan"
+version = "0.1.0"
+description = "A lightweight marine robotics simulator built on HydroLab-3D"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "PyYAML",
+]
+
+[project.optional-dependencies]
+visualization = ["panda3d"]
+learning = ["gymnasium", "stable-baselines3", "torch"]
+dev = ["pytest"]
+
+[project.scripts]
+ambu-parikshan = "ambu_parikshan.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,42 @@
+{
+  "notebook": "08_sensor_models",
+  "production_api": "hydrolab3d.sensors",
+  "sensor_scope": [
+    "gyroscope",
+    "accelerometer",
+    "depth",
+    "dvl",
+    "heading"
+  ],
+  "deferred_scope": [
+    "sonar",
+    "absolute_position_fix"
+  ],
+  "frames": {
+    "pose": "[x, y, z, roll, pitch, yaw]",
+    "body_velocity": "[u, v, w, p, q, r]",
+    "world_z": "positive upward",
+    "depth": "surface_z - world_z",
+    "dvl": "body-frame velocity relative to surrounding water"
+  },
+  "randomness": {
+    "generator": "numpy.random.default_rng",
+    "policy": "explicit independent seeded RNG per sensor"
+  },
+  "seeds": {
+    "gyro": 35001,
+    "accelerometer": 35002,
+    "depth": 35003,
+    "dvl": 35004,
+    "heading": 35005
+  },
+  "regression": {
+    "dedicated_sensor_tests": "14 passed",
+    "full_suite": "127 passed"
+  },
+  "architecture": {
+    "ground_truth_mutated_by_sensors": false,
+    "sensor_base_class_introduced": false,
+    "sonar_publicly_exported": false
+  }
+}

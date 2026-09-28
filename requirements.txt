@@ -1,0 +1,33 @@
+# Python dependencies for simulator development, notebook validation,
+# visualization, testing, and the Notebook 11 learning smoke test.
+
+# Core numerical computing
+numpy
+scipy
+
+# Data handling
+pandas
+
+# Plotting and scientific visualization
+matplotlib
+
+# Jupyter development pipeline
+jupyter
+ipykernel
+
+# Configuration files
+pyyaml
+
+# Optional numerical acceleration
+numba
+
+# Lightweight 3D visualization
+panda3d
+
+# Testing
+pytest
+
+# Notebook 11 - Learning Interface Validation
+gymnasium
+stable-baselines3
+torch

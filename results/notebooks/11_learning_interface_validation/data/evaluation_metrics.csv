@@ -1,0 +1,4 @@
+policy,evaluation_episodes,training_timesteps,success_rate,mean_final_distance_m,mean_min_distance_m,mean_episode_return,mean_episode_steps
+random,50,0,0.0,4.856713216692038,4.856631329420371,-7.269693494612062,750.0
+untrained_ppo,5,0,0.0,4.861101424646664,4.861101424646664,0.20929908319877882,750.0
+trained_ppo,5,20224,0.0,1.8537845424294903,1.8537845424294903,4.460243393796502,750.0
