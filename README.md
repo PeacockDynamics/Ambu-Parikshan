@@ -1,6 +1,6 @@
-# **Ambu-Parikshan**
+# **Ambu-Parikshan UUV Simulator**
 
-### अम्बुपरीक्षण · HydroLab-3D v1.0
+## अम्बुपरीक्षण · HydroLab-3D v1.0
 
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue)
