@@ -256,10 +256,21 @@ Known numerical/model boundaries include explicit-Euler integration, Euler angle
 
 # License
 
-No license terms are currently declared for this repository. The existing
-`LICENSE` file is intentionally a placeholder and does not grant an
-open-source or proprietary license. Peacock Dynamics must select and add the
-intended license text before publishing reuse, distribution, or contribution
-terms.
+Copyright © 2026-present **Peacock Dynamics**.  
+All rights reserved.
+
+This repository is distributed under the **Peacock Dynamics Proprietary License, Version 1.0**.
+
+Public availability of this repository does **not** constitute an open-source release or grant a general license to use, copy, modify, redistribute, deploy, commercialize, sublicense, or create derivative works from the project.
+
+Academic, educational, research, nonprofit, or personal status does not automatically grant permission to use the work beyond ordinary inspection.
+
+Use of the work for artificial-intelligence or machine-learning development, training, fine-tuning, evaluation, augmentation, or dataset construction requires prior written authorization unless separately permitted by Peacock Dynamics.
+
+The software, models, algorithms, and research results are provided **as is** and are not represented or certified as suitable for safety-critical or mission-critical deployment.
+
+See the complete license:
+
+[**LICENSE**](LICENSE)
 
 ---
