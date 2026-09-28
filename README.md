@@ -68,9 +68,9 @@ The basic prototype was developed and executed incrementally in twelve Jupyter n
 
 | Notebook | Validated layer |
 | --- | --- |
-| `00`–`01` | 3D kinematics, orientation, frames, and transforms |
-| `02`–`04` | rigid-body dynamics, drag, gravity, buoyancy, CG/CB restoring effects |
-| `05`–`06` | thrusters, saturation, forces/moments, and ocean currents |
+| `00`-`01` | 3D kinematics, orientation, frames, and transforms |
+| `02`-`04` | rigid-body dynamics, drag, gravity, buoyancy, CG/CB restoring effects |
+| `05`-`06` | thrusters, saturation, forces/moments, and ocean currents |
 | `07` | integrated 6-DOF UUV dynamics |
 | `08` | IMU, depth, DVL, heading, noise, bias, and seeded reproducibility |
 | `09` | PID depth, heading, and waypoint control |
