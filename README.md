@@ -206,7 +206,7 @@ Interactive controls:
 The optional Panda3D engineering visualizer renders a procedural low-poly UUV, world axes, textured seabed and water-surface cues, obstacles, a fixed telemetry panel, and keyboard orbit-camera controls. It is presentation-only: the fixed-step simulator remains the sole owner of truth propagation.
 
 <!-- Add assets/media/ambu-parikshan-demo.gif before publishing. -->
-![Ambu-Parikshan interactive simulator](assets/media/ambu-parikshan-demo.gif)
+![Ambu-Parikshan interactive simulator](media/ambu-parikshan-demo.gif)
 
 The visualizer has been manually exercised on a Pop!_OS desktop. It is not a photorealistic ocean renderer and does not model waves, refraction, shadows, or detailed terrain meshes.
 
