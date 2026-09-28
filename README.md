@@ -274,3 +274,11 @@ See the complete license:
 [**LICENSE**](LICENSE)
 
 ---
+
+## Peacock Dynamics
+
+### Ambu-Parikshan
+
+**A lightweight, deterministic 3D marine-robotics simulator for 6-DOF UUV dynamics, sensing, control, geometric environments, and constrained multi-UUV experiments.**
+
+**Sovereignty. Singularity. Control.**
