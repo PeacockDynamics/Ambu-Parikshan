@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue)
 ![Status](https://img.shields.io/badge/status-research%20simulator-success)
-![License](https://img.shields.io/badge/license-not%20declared-lightgrey)
+![License](https://img.shields.io/badge/license-Peacock%20Dynamics%20Proprietary-red)
 
 **A lightweight, deterministic 3D marine-robotics simulator for 6-DOF UUV dynamics, sensing, control, geometric environments, and constrained multi-UUV experiments.**
 
